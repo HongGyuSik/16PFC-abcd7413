@@ -54,7 +54,7 @@ def cthulhu_room():
     elif"head"in choice:
         dead("Well that was tasty!")
     else:
-        chtulhu_room()
+        cthulhu_room()
 
 
 def dead(why):
