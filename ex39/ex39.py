@@ -1,3 +1,5 @@
+#-*-coding:cp949
+
 # create a mapping of state to abbreviation
 states = {
     'Oregon' : 'OR',
@@ -11,7 +13,8 @@ states = {
 cities = {
     'CA' : 'San Francisco',
     'MI' : 'Detroit',
-    'FL' : 'Jacksonville'
+    'FL' : 'Jacksonville',
+    ('Korea', 02) : 'Seoul'    # 숫자 입력도 가능.
 }
 
 # add some more cities
@@ -22,7 +25,7 @@ cities['OR'] = 'Portland'
 print '-' * 10
 print "NY State has: ", cities['NY']
 print "OR State has: ", cities['OR']
-
+print cities['Korea', 02]
 # print some states
 print '-' * 10
 print "Michigan's abbreviation is: ", states['Michigan']
